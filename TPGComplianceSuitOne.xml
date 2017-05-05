@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ICIX Test Cases">
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+<test name="ICIX Test for Trading Partner Group Compliance Suite One">
+<parameter name="ResponderUsername" value="q@pkgo2rk@icix.com"></parameter>
+<parameter name="ResponderPassword" value="Test@1234"></parameter>
+<parameter name="RequesterUserName" value="q@pkgo1rk@icix.com"></parameter>
+<parameter name="RequestorPassword" value="Test@1234"></parameter>
+<parameter name="LabUserName" value="feature04@icix.com "></parameter>
+<parameter name="LabPassword" value="Test@1234"></parameter>
+<parameter name="icixId" value="44"></parameter>
+
+<classes>
+	<class name="icix.Tests.TC10758_Test"/>
+	<class name="icix.Tests.TC10759_Test"/>
+	<class name="icix.Tests.TC10760_Test"/>
+	<class name="icix.Tests.TC10761_Test"/>
+	<class name="icix.Tests.TC10771_Test"/>
+	</classes>
+</test>
+
+</suite>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ICIX Test Cases">
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+<test name="ICIX Test for Trading Partner Group Compliance Suite One">
+<parameter name="ResponderUsername" value="q@pkgo2rk@icix.com"></parameter>
+<parameter name="ResponderPassword" value="Test@1234"></parameter>
+<parameter name="RequesterUserName" value="q@pkgo1rk@icix.com"></parameter>
+<parameter name="RequestorPassword" value="Test@1234"></parameter>
+<parameter name="LabUserName" value="feature04@icix.com "></parameter>
+<parameter name="LabPassword" value="Test@1234"></parameter>
+<parameter name="icixId" value="44"></parameter>
+
+<classes>
+<!-- 	<class name="icix.Tests.TC10772_Test"/> -->
+	<class name="icix.Tests.TC10773_Test"/>
+<!-- 	<class name="icix.Tests.TC10774_Test"/> -->
+<!-- 	<class name="icix.Tests.TC10796_Test"/> -->
+<!-- 	<class name="icix.Tests.TC10797_Test"/> -->
+<!-- 	<class name="icix.Tests.TC10798_Test"/> -->
+<!-- 	<class name="icix.Tests.TC10803_Test"/> -->
+<!-- 	<class name="icix.Tests.TC10804_Test"/> -->
+<!-- 	<class name="icix.Tests.TC10805_Test"/> -->
+<!-- 	<class name="icix.Tests.TC10806_Test"/> -->
+<!-- 	<class name="icix.Tests.TC10807_Test"/> -->
+<!-- 	<class name="icix.Tests.TC10808_Test"/> -->
+<!-- 	<class name="icix.Tests.TC10813_Test"/> -->
+<!-- 	<class name="icix.Tests.TC10814_Test"/> -->
+<!-- 	<class name="icix.Tests.TC10863_Test"/> --><!-- Scenario is not there in test cases  -->
+
+</classes>
+</test>
+
+</suite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ICIX Test Cases">
+
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+<test name="ICIX Test for Form Builder Suite Two">
+<parameter name="ResponderUsername" value="q@pkgo2rk@icix.com"></parameter><!--  q@pkgo2rk@icix.com-->
+<parameter name="ResponderPassword" value="test@123"></parameter><!--  Test@1234-->
+<parameter name="RequesterUserName" value="r3lqa03rk@icix.com"></parameter><!--  q@pkgo1rk@icix.com-->
+<parameter name="RequestorPassword" value="Test@12345"></parameter><!--  Test@1234-->
+<parameter name="LabUserName" value="feature04@icix.com "></parameter>
+<parameter name="LabPassword" value="Test@1234"></parameter>
+<parameter name="icixId" value="44"></parameter>
+
+<classes>
+<class name="icix.Tests.TC9845_Test"/>
+<class name="icix.Tests.TC9846_Test"/>
+<class name="icix.Tests.TC9847_Test"/>
+<class name="icix.Tests.TC9848_Test"/>
+<class name="icix.Tests.TC9871_Test"/>
+<class name="icix.Tests.TC9872_Test"/>
+<class name="icix.Tests.TC9875_Test"/>
+</classes>
+</test>
+
+</suite>

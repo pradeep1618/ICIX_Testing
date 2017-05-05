@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ICIX Test Cases">
+
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+<test name="ICIX Test For sdd">
+<parameter name="ResponderUsername" value="sdd3v06@sd.com"></parameter> <!-- sdd3v06@sd.com -->
+<parameter name="ResponderPassword" value="Test@12345"></parameter> <!-- Test@12345 -->
+<parameter name="RequesterUserName" value="sdd3v05@sd.com"></parameter>
+<parameter name="RequestorPassword" value="Test@12345"></parameter>
+<parameter name="LabUserName" value="sdd3v07@sd.com "></parameter>
+<parameter name="LabPassword" value="Test@1234"></parameter>
+<parameter name="icixId" value="44"></parameter>
+
+<classes>
+		<class name="icix.Tests.TC9649_Test" />
+		<class name="icix.Tests.TC9651_Test" />
+		<class name="icix.Tests.TC9652_Test" />
+		<class name="icix.Tests.TC9654_Test" />
+		<class name="icix.Tests.TC9665_Test" />
+		<class name="icix.Tests.TC9668_Test" />
+		<class name="icix.Tests.TC9675_Test" />
+		<class name="icix.Tests.TC9827_Test" />
+		<class name="icix.Tests.TC9833_Test" />
+		<class name="icix.Tests.TC9875_Test" />
+  	</classes>
+</test>
+
+</suite>
